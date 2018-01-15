@@ -1,0 +1,143 @@
+body {
+    background: linear-gradient(90deg, black, rgb(107, 107, 176));
+    font-family: arial; 
+    color: white;
+}
+
+h1 {
+    font-family: serif; 
+    color: white;
+    border-bottom: 5px solid rgb(183, 132, 229); 
+}
+
+#red {
+    color: red; 
+    font-style: italic; 
+}
+
+#orange {
+    color: orange; 
+    font-size: 2em;
+   
+}
+
+#yellow{
+    color: yellow; 
+   
+}
+
+#green {
+    color: green; 
+}
+
+#blue {
+    color: blue; 
+    background-color: rgb(151, 213, 224); 
+
+}
+
+#pink {
+    color: pink;
+    font-style: oblique;
+}
+
+#purple {
+    color: purple; 
+    font-weight: 900;
+    font-size: 3em;
+}
+
+.solid {
+    border-style: solid;
+    width: 100px;
+}
+
+.dotted {
+    border-style: dashed;
+    width: 200px;
+}
+
+.middle {
+    text-align: center;
+    border-style: inset;
+}
+
+.fa {
+    font-size: 100px;
+    margin: 30px;
+    text-align: center; 
+    padding-left: 30px;
+}
+
+.fa-cloud{
+    color: rgb(151, 227, 231);
+}
+
+.fa-heart{
+    color: red;
+}
+
+.fa-car{
+    color: rgb(244, 15, 206);
+}
+
+.fa-bars {
+    color: gray; 
+}
+
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+    margin: auto;
+}
+
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #412145;}
+
+#customers tr:hover {background-color: #412145;}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(206, 126, 224);
+    color: white;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: rgb(175, 76, 160);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #2bcad8;
+}
+
+div {
+    border-radius: 5px;
+    background-color: #2bcad8;
+    padding: 30px;
+    
+}
+
